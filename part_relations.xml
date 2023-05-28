@@ -1,13 +1,13 @@
 <AML>
   <Item type="Part" action="add">
-    <item_number>999-888</item_number>
-    <description>Some Assy</description>
+    <item_number>modified 777-2222</item_number>
+    <description>Modified description</description>
     <Relationships>
       <Item type="Part BOM" action="add">
-        <quantity>10</quantity>
+        <quantity>5</quantity>
         <related_id>
           <Item type="Part" action="add">
-            <item_number>123-456</item_number>
+            <item_number>modified 321-654</item_number>
           </Item>
         </related_id>
       </Item>
